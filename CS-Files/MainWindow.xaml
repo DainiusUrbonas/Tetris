@@ -1,0 +1,49 @@
+﻿<Window x:Class="TetrisWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="570" Width="525"
+        KeyDown="HandleKeyDown"
+        Initialized="MainWindow_Initialized" Background="Black">
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Right" Width="172">
+            <Label Content="Score=0000" Height="56" Name="Score" FontSize="28" FontWeight="Bold" Foreground="Red" />
+            <Label Content="Lines=0000" Height="56" Name="Lines" FontSize="28" FontWeight="Bold" Foreground="Red"/>
+        </StackPanel>
+        <Grid Name="MainGrid" Height="500" Width="250">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </DockPanel>
+</Window>

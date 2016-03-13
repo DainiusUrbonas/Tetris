@@ -1,0 +1,11 @@
+﻿<Window x:Class="TetrisWpf.GameEnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameEnd" Height="130" Width="200"
+        Background="Black">
+    <Grid>
+        <TextBlock Margin="0,10,0,0" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Start Game?" VerticalAlignment="Top" Name="Text_Block" Foreground="red" />
+        <Button Click="Button_Click_Close" Content="Close" HorizontalAlignment="Center" Margin="0,60,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
